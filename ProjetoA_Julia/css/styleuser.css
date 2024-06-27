@@ -1,0 +1,109 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EEEDE9;
+}
+
+
+form {
+    background-color: #C8C6AD;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 300px;
+    align-self: center;
+    color: black;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;  
+    background-color:#EEEDE9 ;
+}
+input[type="submit"] {
+    width: 103%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #98503F;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #774135;
+}
+
+
+header {
+    background-color: #A2B08F;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #A2B08F;;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    align-self: flex-end; 
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+p{
+    margin-left: 15px;
+  
+}
+
+nav{
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+img{
+    width: 50px;
+}
