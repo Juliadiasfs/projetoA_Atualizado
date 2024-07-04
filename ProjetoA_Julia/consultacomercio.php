@@ -34,18 +34,22 @@
         if($linha) {
     ?>
 
-        <form>
+        <form action="alterarcomercial.php"  method="POST">
+            <label for="">Codigo:</label>
+            <input type="text" name="cxcodigo" value="<?php echo $linha['cod'] ?>" readonly/>
+
             <label for="">Nome:</label>
-            <input type="text" name="" value="<?php echo $linha['nome'] ?>"/>
+            <input type="text" name="cxnome" value="<?php echo $linha['nome'] ?>"/>
 
             <label for="">Empresa:</label>
-            <input type="text" name="" value="<?php echo $linha['comercio'] ?>"/>
+            <input type="text" name="cxempresa" value="<?php echo $linha['comercio'] ?>"/>
 
             <label for="">Telefone:</label>
-            <input type="text" name="" value="<?php echo $linha['telefone'] ?>"/>
+            <input type="text" name="cxtelefone" value="<?php echo $linha['telefone'] ?>"/>
 
             <label for="">WhatsApp:</label>
-            <input type="text" name="" value="<?php echo $linha['whats'] ?>"/>
+            <input type="text" name="cxwhats" value="<?php echo $linha['whats'] ?>"/>
+            <input type="submit" value="Alterar">
         </form>
 
     <?php 

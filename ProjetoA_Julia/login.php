@@ -48,7 +48,7 @@
 
                         </div>
                         <p>Ainda não tem cadastro?
-                            <a href="telacaduser.php" onclick="toggleForms()" style="color: black;">Cadastre-se</a>
+                            <a href="cadastro.php" onclick="toggleForms()" style="color: black;">Cadastre-se</a>
                         </p>
             </form>
 

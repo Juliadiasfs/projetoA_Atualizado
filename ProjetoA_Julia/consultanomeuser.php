@@ -33,17 +33,19 @@
 
     ?> 
 
+<form action="alterarcliente.php"  method="POST">
+    <label for="">Codigo:</label>
+    <input type="text" name="cxcodigo" value="<?php echo $linha['cod'] ?>" readonly/>
 
-    <form>
     <label for="">Nome:</label>
-    <input type="text" name="" value="<?php echo $linha ['nome'] ?>"/>
+    <input type="text" name="cxnome" value="<?php echo $linha ['nome'] ?>"/>
 
     <label for="">E-mail:</label>
-    <input type="email" name="" value="<?php echo $linha ['email'] ?>"/>
+    <input type="email" name="cxemail" value="<?php echo $linha ['email'] ?>"/>
 
     <label for="">Senha:</label>
-    <input type="password" name="" value="<?php echo $linha ['senha'] ?>"/>
-
+    <input type="password" name="cxsenha" value="<?php echo $linha ['senha'] ?>"/>
+    <input type="submit" value="Alterar">
     </form>
 </div>
 

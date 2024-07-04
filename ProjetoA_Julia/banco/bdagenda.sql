@@ -30,7 +30,7 @@ CREATE TABLE `tbamigos` (
   `whats` varchar(20) DEFAULT NULL,
   `datanasc` date DEFAULT NULL,
   PRIMARY KEY (`cod`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `tbamigos` (
 
 LOCK TABLES `tbamigos` WRITE;
 /*!40000 ALTER TABLE `tbamigos` DISABLE KEYS */;
-INSERT INTO `tbamigos` VALUES (1,'a','a@gmail.com','a','a','0000-00-00');
+INSERT INTO `tbamigos` VALUES (1,'','a@gmail.com','','','0000-00-00'),(2,'sla','vi@gmail.com','12345','12345','1212-12-12'),(3,'sla','vi@gmail.com','12345','12345','1212-12-12'),(4,'sla','vi@gmail.com','12345','12345','1212-12-12'),(5,'sla','vi@gmail.com','12345','12345','1212-12-12'),(6,'sla','vi@gmail.com','12345','12345','1212-12-12'),(7,'sla','vi@gmail.com','12345','12345','1212-12-12'),(8,'bruna','vagabunda@gmail.com','0987654','1234556789','0000-00-00');
 /*!40000 ALTER TABLE `tbamigos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -82,7 +82,7 @@ CREATE TABLE `tblogin` (
   `email` varchar(90) DEFAULT NULL,
   `senha` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`cod`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -91,7 +91,7 @@ CREATE TABLE `tblogin` (
 
 LOCK TABLES `tblogin` WRITE;
 /*!40000 ALTER TABLE `tblogin` DISABLE KEYS */;
-INSERT INTO `tblogin` VALUES (1,'a','a@gmail.com','Julia'),(2,'a','a@gmail.com','Julia'),(3,'amanda','amanda@gmail.com','123'),(4,'teste','teste@gmail.com','teste');
+INSERT INTO `tblogin` VALUES (1,'a','a@gmail.com','Julia'),(2,'a','a@gmail.com','Julia'),(3,'amanda','amanda@gmail.com','123'),(4,'teste','teste@gmail.com','teste'),(5,'e','e@gmail.com','234');
 /*!40000 ALTER TABLE `tblogin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -108,7 +108,7 @@ CREATE TABLE `tbusuario` (
   `email` varchar(90) DEFAULT NULL,
   `senha` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`cod`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -117,7 +117,7 @@ CREATE TABLE `tbusuario` (
 
 LOCK TABLES `tbusuario` WRITE;
 /*!40000 ALTER TABLE `tbusuario` DISABLE KEYS */;
-INSERT INTO `tbusuario` VALUES (1,'a','a@gmail.com','Julia');
+INSERT INTO `tbusuario` VALUES (1,'b','a@gmail.com','Julia'),(2,'a','a@gmail.com','123'),(3,'a','a@gmail.com','123');
 /*!40000 ALTER TABLE `tbusuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -130,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-27 16:08:06
+-- Dump completed on 2024-07-04 16:10:52

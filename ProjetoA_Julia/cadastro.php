@@ -50,7 +50,7 @@
 
                         </div>
                         <p>Já possui cadastro?Faça o login
-                            <a href="telacaduser.php" onclick="toggleForms()" style="color: black;">Loga-se</a>
+                            <a href="login.php" onclick="toggleForms()" style="color: black;">Loga-se</a>
                         </p>
             </form>
         </div>

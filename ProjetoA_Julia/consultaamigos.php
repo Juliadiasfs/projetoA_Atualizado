@@ -28,26 +28,32 @@
         $executar = mysqli_query($conn, $consultar);
         $linha = mysqli_fetch_array($executar);
         if($linha) {
+    
+          
     ?>
 
+        <form action="alteraramigos.php"  method="POST">
 
-        <form>
+            <label for="">Codigo:</label>
+            <input type="text" name="cxcodigo" value="<?php echo $linha['cod'] ?>" readonly/>
+            
             <label for="">Nome:</label>
-            <input type="text" name="" value="<?php echo $linha['amigo'] ?>"/>
+            <input type="text" name="cxamigo" value="<?php echo $linha['amigo'] ?>"/>
 
             <label for="">E-mail:</label>
-            <input type="email" name="" value="<?php echo $linha['email'] ?>"/>
+            <input type="email" name="cxemail" value="<?php echo $linha['email'] ?>"/>
 
             <label for="">Telefone:</label>
-            <input type="text" name="" value="<?php echo $linha['telefone'] ?>"/>
+            <input type="text" name="cxtelefone" value="<?php echo $linha['telefone'] ?>"/>
 
             <label for="">WhatsApp:</label>
-            <input type="text" name="" value="<?php echo $linha['whats'] ?>"/>
+            <input type="text" name="cxwhats" value="<?php echo $linha['whats'] ?>"/>
 
             <label for="">Data de Nascimento:</label>
-            <input type="date" name="" value="<?php echo $linha['datanasc'] ?>"/>
+            <input type="date" name="cxdatanasc" value="<?php echo $linha['datanasc'] ?>"/>
+            <input type="submit" value="Alterar">
+         
         </form>
-
         <?php
                         } else {
                             echo "<div class='mensagem'><h2>Amigo não encontrado. Verifique o nome e tente novamente<h2></div>";
