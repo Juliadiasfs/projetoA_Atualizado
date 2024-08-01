@@ -10,6 +10,7 @@
         values('$nome','$email','$telefone','$whats','$nascimento')";
         $query = mysqli_query($conn,$sql);
         echo "Dados cadastrados com sucesso !";
+        echo "<a href='telaamigos.php'>Voltar</a>";
     }
     else
     {

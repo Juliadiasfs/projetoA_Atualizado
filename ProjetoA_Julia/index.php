@@ -26,12 +26,20 @@
 
     <section id="cxprincipal">
         <header id="banner">
+            <div class="usuario">
+            <img id="fotousuario" src="img/usuario.png" alt="" style="width: 75px; height: 75px;">
+            <?php echo $logado?></div>
             <img src="img/Guarda.png" alt="" id="logo">
             <h1 id="titulo">GuardCad</h1>
         </header>
+
         <footer id="rodape">
-            <h4>&copy; 2024 Julia Dias Turma A. Todos os direitos reservados.</h4>
-        </footer>
+    <a class="sair" href="sair.php">
+        <img src="img/sair.png" alt="Sair" style="width: 30px; height: 30px;">
+    </a>
+    <h4 id="direitos">&copy; 2024 Julia Dias Turma A. Todos os direitos reservados.</h4>
+</footer>
+
 
         <nav id="cxamigo">
             Cadastre seus amigos
@@ -51,12 +59,12 @@
             <a href="telacaduser.php">
                 <figure><img src="img/do-utilizador (1).png" alt=""></figure>
             </a>
+            
         </nav>
 
 
     </section>
-<?php echo $logado?>
-<a href="sair.php">SAIR</a>
+
     
 </body>
 

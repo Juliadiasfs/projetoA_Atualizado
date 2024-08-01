@@ -52,8 +52,11 @@
             <label for="">Data de Nascimento:</label>
             <input type="date" name="cxdatanasc" value="<?php echo $linha['datanasc'] ?>"/>
             <input type="submit" value="Alterar">
-         
+            <p> Deseja excluir o cadastro de seu amigo?
+            <a href="excluiramigos.php?id=<?php echo $linha["cod"]?>">Excluir</a>
+        </p>
         </form>
+        
         <?php
                         } else {
                             echo "<div class='mensagem'><h2>Amigo não encontrado. Verifique o nome e tente novamente<h2></div>";

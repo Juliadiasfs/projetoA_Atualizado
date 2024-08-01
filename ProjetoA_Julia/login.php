@@ -17,7 +17,7 @@
     <main>
 
             <form  id="cadastroForm" action="open.php" method="POST">
-
+                <img src="img/login.png" alt="" style="width: 200px; height: 200px;">
                 <div id="cxprincipal">
                     <figure>
 
