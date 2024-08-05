@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styleuser.css">
-    <title>User</title>
+    <title>Cliente</title>
     <script>
         function toggleForms() {
             var cadastroForm = document.getElementById("cadastroForm");
@@ -39,7 +39,7 @@
         Senha:
         <input type="password" name="cxsenha" /><br />
         <input type="submit" value="Gravar">
-        <p>Já tem cadastro?
+        <p>Já cadastrou seu cliente?
             <a href="#" onclick="toggleForms()" style="color: black;">Busque-o</a>
         </p>
     </form>
@@ -48,8 +48,8 @@
         Digite o nome completo: <br />
         <input type="text" name="cxpesquisanome" />
         <input type="submit" value="Buscar" />
-        <p>Ainda não tem cadastro?
-            <a href="telacaduser.php" onclick="toggleForms()"style="color: black;">Cadastre-se</a>
+        <p>Ainda não cadastrou seu cliente?
+            <a href="telacaduser.php" onclick="toggleForms()"style="color: black;">Cadastre-o</a>
         </p>
     </form>
 

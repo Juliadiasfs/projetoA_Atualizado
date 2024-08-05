@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleuser.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
 </head>
 
 <body>
@@ -19,8 +19,6 @@
             <form  id="cadastroForm" action="open.php" method="POST">
                 <img src="img/login.png" alt="" style="width: 200px; height: 200px;">
                 <div id="cxprincipal">
-                    <figure>
-
                         <div class="container_form__itens">
 
                             <div class="container_form_itens__inputs">

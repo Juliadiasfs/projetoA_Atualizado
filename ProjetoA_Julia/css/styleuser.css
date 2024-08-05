@@ -1,3 +1,4 @@
+/* Estilos gerais do body */
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -12,6 +13,40 @@ body {
 }
 
 
+.mensagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;  
+    padding: 20px;
+}
+.mensagem a {
+    color: #0056b3; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block; 
+}
+
+.mensagem a:hover {
+    text-decoration: underline;
+}
+
+
+.mensagem {  
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Outros estilos permanecem inalterados */
 form {
     background-color: #C8C6AD;
     padding: 20px;
@@ -22,7 +57,6 @@ form {
     color: black;
 }
 
-
 input[type="text"], input[type="email"], input[type="password"] {
     width: 95%;
     padding: 10px;
@@ -31,6 +65,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border: 1px solid #ccc;  
     background-color:#EEEDE9 ;
 }
+
 input[type="submit"] {
     width: 103%;
     padding: 10px;
@@ -45,7 +80,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #774135;
 }
-
 
 header {
     background-color: #A2B08F;
@@ -74,9 +108,8 @@ header nav ul li a {
     text-decoration: none;
 }
 
-
 footer {
-    background-color: #A2B08F;;
+    background-color: #A2B08F;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -88,22 +121,23 @@ footer p {
     margin: 0;
 }
 
-
-
-p{
-    margin-left: 15px;
-  
+p {
+    text-align: center;
+    font-size: 14px;
 }
 
-nav{
+nav {
     margin-top: 15px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-
-img{
+img {
     width: 50px;
+}
+
+.hidden {
+    display: none;
 }

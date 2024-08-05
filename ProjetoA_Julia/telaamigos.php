@@ -55,7 +55,7 @@
         <input type="text" name="amigo_name" />
         <input type="submit" value="Buscar" />
         <p>Ainda não cadastrou seu amigo?
-            <a href="telaamigos.php" onclick="toggleForms()"style="color: black">Cadastre-se</a>
+            <a href="telaamigos.php" onclick="toggleForms()"style="color: black">Cadastre-o</a>
         </p>
     </form>
 

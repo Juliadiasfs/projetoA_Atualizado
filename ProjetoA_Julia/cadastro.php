@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleuser.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     
 
             <form action="inserirlogin.php" method="POST" >
-
+            <img src="img/login.png" alt="" style="width: 200px; height: 200px;">
                 <div id="cxprincipal">
-                    <figure>
+                    
 
                         <div class="container_form__itens">
 
@@ -49,7 +49,7 @@
                             </div>
 
                         </div>
-                        <p>Já possui cadastro?Faça o login
+                        <p>Já possui cadastro?
                             <a href="login.php" onclick="toggleForms()" style="color: black;">Loga-se</a>
                         </p>
             </form>

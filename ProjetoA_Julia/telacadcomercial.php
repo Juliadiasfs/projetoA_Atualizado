@@ -48,11 +48,11 @@
     </form>
 
     <form  action="consultacomercio.php" id="consultaForm" style="display:none;" method="POST">
-        Digite o nome do amigo: <br />
+        Digite o nome do comércio: <br />
         <input type="text" name="comercio_name" />
         <input type="submit" value="Buscar" />
         <p>Ainda não cadastrou seu comércio?
-            <a href="telacadcomercial.php" onclick="toggleForms()" style="color: black">Cadastre-se</a>
+            <a href="telacadcomercial.php" onclick="toggleForms()" style="color: black">Cadastre-o</a>
         </p>
     </form>
 

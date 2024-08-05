@@ -68,14 +68,14 @@ figure{
 img{
     width: 100%;
 }
-h1{
+h2{
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
 #logo{
-    width: 90px;
+    width: 80px;
 }
 
 .header {

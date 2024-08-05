@@ -20,7 +20,7 @@
             </ul>
         </nav>
     </header>
-    
+    <div class="mensagem-container">
     <?php 
     include_once "factory/conexao.php";
   
@@ -35,8 +35,8 @@
     ?>
 
         <form action="alterarcomercial.php"  method="POST">
-            <label for="">Codigo:</label>
-            <input type="text" name="cxcodigo" value="<?php echo $linha['cod'] ?>" readonly/>
+
+            <input type="text" name="cxcodigo" value="<?php echo $linha['cod'] ?>" readonly class="hidden"/>
 
             <label for="">Nome:</label>
             <input type="text" name="cxnome" value="<?php echo $linha['nome'] ?>"/>
@@ -50,15 +50,19 @@
             <label for="">WhatsApp:</label>
             <input type="text" name="cxwhats" value="<?php echo $linha['whats'] ?>"/>
             <input type="submit" value="Alterar">
+            <p> Deseja excluir o cadastro de seu amigo? Clique aqui
+            <a href="excluircomercio.php?id=<?php echo $linha["cod"]?>">Excluir</a>
+        </p>
         </form>
 
     <?php 
         } else {
         
-            echo "<div class='mensagem'><h2>Comércio não encontrado. Verifique o nome e tente novamente<h2></div>";
+            echo "<div class='mensagem'><h2>Comércio não encontrado. Verifique o nome e tente novamente<h2><a href='telacadcomercial.php'>Voltar</a></div>";
         }
     }
     ?>
+     </div>
 
         <footer>
             <p>&copy; 2024 Julia Dias Turma A. Todos os direitos reservados.</p>

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #EEEDE9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    background-color: #A2B08F;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header #logo {
+    width: 50px;
+}
+
+header #titulo {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+}
+
+form {
+    background-color: #C8C6AD;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+form img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.container_form__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container_form_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px; 
+}
+.container_form_input label {
+    font-size: 14px;
+    color: #333;
+}
+
+.container_form_input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #EEEDE9;
+    font-size: 14px;
+}
+
+
+
+.container_form_itens__submit {
+    margin-top: 15px;
+}
+
+.container_form_itens__submit input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #98503F;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container_form_itens__submit input[type="submit"]:hover {
+    background-color: #774135;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: black;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #A2B08F;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
